@@ -75,7 +75,7 @@ body {
 .inline-none{
      
     list-style:none;
-    text-align: right;
+    text-align: start;
    
     
 }
@@ -85,3 +85,18 @@ body {
     font-size: medium;
     border-radius: 15px;
 }
+
+.output{
+
+    border: 5px solid black;
+    border-radius: 15px;
+    font-weight: 600;
+    background-color: aliceblue;
+}
+
+#btn-check{
+    border: 5px solid black;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
