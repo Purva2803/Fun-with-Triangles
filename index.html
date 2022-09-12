@@ -5,17 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is It a Triangle?</title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <nav><a href="/index.html">Home</a></nav>
-    <nav><a href="/quiz.html">Quiz</a></nav>
-    <nav><a href="/hypotenuse.html">Calculate Hypotenuse</a></nav>
-    <input  type="number" id="n1">Enter the 1st angle </input>
-    <input type="number" id="n2">Enter the 2nd angle</input>
-    <input type="number" id="n3">Enter the 3rd angle</input>
+    
+    <nav class="nav-items">
+    <li class="inline-none">
+     <ul class="nav-items"><a href="/index.html">Home</a></ul>
+     <ul class="nav-items"><a href="/quiz.html">Quiz</a></ul>
+     <ul class="nav-items"><a href="/hypotenuse.html">Calculate Hypotenuse</a></ul>
+    </li>
+    </nav>
+    <h1 class="title">Fun With Triangle</h1>
+    <div class="input-wrapper">
+    <label>
+    <div class="field">
+        Enter the 1st angle
+    <input  type="number" id="n1"></input></div>
+    </label>
+    <label>
+    <div class="field">
+        Enter the 2nd angle
+    <input type="number" id="n2"></input></div>
+    </label>
+    <label></label>
+    <div class="field">
+        Enter the 3rd angle
+    <input type="number" id="n3"></input></div>
+    </label>
     <h2 id="output"></h2>
-    <button id="inbtn">Calculate</button>
+    <button id="inbtn"><b>Calculate</b></button>
+    </div>
 
     
 </body>
