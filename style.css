@@ -99,4 +99,11 @@ body {
     border-radius: 15px;
     font-weight: 600;
 }
+#btn{
+
+    font-size: medium;
+    border: solid white 5px;
+    border-radius: 10px;
+    font-weight: 500;
+}
 
